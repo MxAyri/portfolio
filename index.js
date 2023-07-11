@@ -52,3 +52,23 @@ var run = function() {
 };
 
 run();
+
+//Nav
+let flag=0;
+
+function openNav() {
+    if (flag === 0){
+        document.getElementById("blNav").style.width = "100%";
+        document.getElementById("myNav").style.width = "320px";
+        document.getElementById("idnavb").style.transform = "rotate(-90deg)";
+        document.body.style.overflowY = "hidden";
+        flag = 1;
+    }
+    else{   
+        document.getElementById("myNav").style.width = "0%";
+        document.getElementById("blNav").style.width = "0%";
+        document.getElementById("idnavb").style.transform = "rotate(0deg)";
+        flag = 0;
+        document.body.style.overflowY = "scroll";
+    }
+}
