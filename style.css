@@ -702,6 +702,18 @@
       justify-items: center;
     }
 
+    @media (max-width: 582px)
+.sk_me button:after {
+    background: radial-gradient(100px at left 200px top 50px, #75CCFF 100%, #0000), radial-gradient(100px at right 200px bottom 50px, #75CCFF 100%, #0000);
+}
+.sk_me button:before, .sk_me button:after {
+    animation: rotate 5s linear infinite;
+    transition: .5s, 600s linear transform;
+}
+.sk_me button:after {
+    inset: 0;
+}
+
     @media (max-width: 463px) {
       .sk_card::-webkit-scrollbar {
         width: 5px;
