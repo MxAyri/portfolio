@@ -11,7 +11,7 @@
   body {
       margin: 0 auto;
       background-color: #030007;
-      /* overflow: hidden; */
+      overflow-x: hidden;
   }
 
   h1 {
@@ -480,6 +480,7 @@
   @media (max-width: 1175px) {
     .pr_block {
       justify-content: center;
+      row-gap: 60px;
     }
     canvas{
       height: 900px;
@@ -627,7 +628,7 @@
 }
 @media (max-width: 582px) {
   .sk_me button:after {
-    inset: 0;
+    background: radial-gradient(100px at left 200px top 50px,#75CCFF 100%,#0000), radial-gradient(100px at right 200px bottom 50px,#75CCFF 100%,#0000);
   }
   .head p {
     padding: 94px 5px 0 5px;
