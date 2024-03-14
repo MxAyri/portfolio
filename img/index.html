@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dmitrii Ilin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/Logo.ico" type="image/x-icon">
+</head>
+<body>   
+    <section class="head">
+        <canvas id='canvi'></canvas>
+        <header>
+            <div class="header">
+                <img src="./img/Logo.svg" alt="" class="logo">
+                <div class="nav_bar">
+                    <a href="#head" class="nav">Главная</a>
+                    <a href="#skill" class="nav">Обо мне</a>
+                    <a href="#project" class="nav">Мои проекты</a>
+                    <a href="#contact" class="nav">Контакты</a>
+                </div>
+                <div id="idnavb" class="brmenu openNav">
+                    <div class="menuicon"></div>
+                    <div class="menuicon"></div>
+                    <div class="menuicon"></div>
+                </div>
+                <div id="blNav" class="openNav" style="width: 0%;"></div>
+                <div id="myNav" class="navA" style="width: 0%;">   
+                    <div class="navA-con">
+                        <li><a href="#head" class="openNav">Главная</a></li>
+                        <li><a href="#skill" class="openNav">Обо мне</a></li>
+                        <li><a href="#project" class="openNav">Мои проекты</a></li>
+                        <li><a href="#contact" class="openNav">Контакты</a></li>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="head_sect" id="head">
+            <div class="head_cont">
+                <h1>Привет, меня зовут Дмитрий</h1>
+                <p>Я начинающий web-разработчик. Легко усваиваю новую информацию и всегда рад обучаться чему-то новому.
+                </p>
+                <hr id="skill">
+            </div>
+        </div>
+    </section>
+    <section class="skill">
+        <div class="skill_sect">
+            <div class="sk_me">
+                <div class="sk_about_me">
+                    <button><img src="./img/me.jpeg"></button>
+                    <div class="sk_about">
+                        <ul>
+                            <li>Высшее образование по направлению “Информатика и вычислительная техника”</li>
+                            <li>Знание основных принципов правильной верстки</li>
+                            <li>Знание правил написания “чистого кода”</li>
+                            <li>Хорошая обучаемость и познание ко всему новому</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sk_block">
+                <div class="sk_card">
+                    <div class="sk_card_cont btn">
+                        <img src="./img/html.svg" alt="">
+                        <p>Cтандартизированный <br> язык гипертекстовой разметки документов
+                        </p>
+                    </div>
+                    <div class="sk_card_cont btn">
+                        <img src="./img/CSS.svg" alt="">
+                        <p>Язык декорирования и описания внешнего вида документа
+                        </p>
+                    </div>
+                    <div class="sk_card_cont btn">
+                        <img src="./img/sass.svg" alt="">
+                        <p>Метаязык на основе CSS, призванный увеличить уровень абстракции<br>CSS-кода
+                        </p>
+                    </div>
+                    <div class="sk_card_cont btn">
+                        <img src="./img/JS.svg" alt="">
+                        <p>Язык программирования, который используют для создания интерактивных веб-страниц
+                        </p>
+                    </div>                   
+                    <div class="sk_card_cont btn">
+                        <img src="./img/figma.svg" alt="">
+                        <p>Figma - онлайн-сервис для разработки интерфейсов и прототипирования
+                        </p>
+                    </div>
+                    <div class="sk_card_cont btn">
+                        <img src="./img/git.svg" alt="">
+                        <p>Git - распределённая система управления версиями
+                        </p>
+                    </div>
+                    <div class="sk_card_cont btn">
+                        <img src="./img/vs.svg" alt="">
+                        <p>Редактор кода для кроссплатформенной разработки веб- и облачных приложений
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <div class="pr_cont">
+            <div class="pr_btn">
+                <h2>Мои Проекты</h2>
+                <!-- <button>Все проекты</button> -->
+            </div>
+            <div class="pr_block">
+                <div class="card">
+                    <a href="https://mxayri.github.io/RS-School/shelter/">
+                        <div class="pr_card">
+                            <img src="./img/shelter.png" alt="">
+                            <div class="white"></div>
+                            <button></button>
+                            <p class="all">Подробнее &rarr;</p>
+                        </div>
+                    </a>
+                    <div class="pr_card_txt">
+                        <a href="https://mxayri.github.io/RS-School/shelter/" class="name">Shelter</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://mxayri.github.io/coda/">
+                        <div class="pr_card">
+                            <img src="./img/coda.png" alt="">
+                            <div class="white"></div>
+                            <button></button>
+                            <p class="all">Подробнее &rarr;</p>
+                        </div>
+                    </a>
+                    <div class="pr_card_txt">
+                        <a href="https://mxayri.github.io/coda/" class="name">Coda</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://mxayri.github.io/coda/">
+                        <div class="pr_card">
+                            <img src="./img/movie.png" alt="">
+                            <div class="white"></div>
+                            <button></button>
+                            <p class="all">Подробнее &rarr;</p>
+                        </div>
+                    </a>
+                    <div class="pr_card_txt">
+                        <a href="https://mxayri.github.io/movie/" class="name">Movie</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer" id="contact">
+            <img src="./img/Logo.svg" alt="">
+            <div class="all_cnt">
+                <div class="cnt_cont">
+                    <div class="contact">
+                        <a href="https://t.me/MxAyri"><img src="./img/telegram.svg" alt=""></a>
+                        <a href="https://t.me/MxAyri">@mxayri</a>
+                    </div>
+                    <div class="contact">
+                        <a href="https://vk.com/mxayri"><img src="./img/vk.svg" alt=""></a>
+                        <a href="https://vk.com/mxayri">@mxayri</a>
+                    </div>
+                </div>
+                <div class="cnt_cont">
+                    <div class="contact">
+                        <a href="mailto:777kopezer777@mail.ru"><img src="./img/email.svg" alt=""></a>
+                        <a href="mailto:777kopezer777@mail.ru">777kopezer777@mail.ru</a>
+                    </div>
+                    <div class="contact">
+                        <a href="tel:+79034787551"><img src="./img/tel.svg" alt=""></a>
+                        <a href="tel:+79034787551">+7-903-478-75-51</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
