@@ -37,7 +37,7 @@ let draw = function(a, b, t) {
       $.lineTo(10 * Math.sin(i / 10) +
         j + 0.008 * j * j,
         Math.floor(h / 2 + j / 2 *
-          Math.sin(j / 50 - t / 50 - i / 118) +
+          Math.sin(j / 50 - t / 50 - i / 50) +
           (i * 0.9) * Math.sin(j / 25 - (i + t) / 65)));
     };
     $.stroke();
@@ -47,8 +47,8 @@ let t = 0;
 
 let run = function() {
   window.requestAnimationFrame(run);
-  t += 5;
-  draw(33, 52 * Math.sin(t / 2400), t);
+  t += 2;
+  draw(33, 52 * Math.sin(t / 2000), t);
 };
 
 run();
